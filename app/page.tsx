@@ -1,11 +1,13 @@
 "use client";
 
+import avatar from "@/assets/MehdiAlloui.png"
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Github, Linkedin, Mail, Palette, Layout, FileCode } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const expertise = [
   {
@@ -54,7 +56,7 @@ export default function Home() {
 
   useEffect(() => {
     // Replace 'your-github-username' with your actual GitHub username
-    fetch('https://api.github.com/users/your-github-username/events/public')
+    fetch('https://api.github.com/users/rainyzdev/events/public')
       .then(res => res.json())
       .then(data => {
         setActivities(data.slice(0, 5).map((event: any) => ({
@@ -72,7 +74,7 @@ export default function Home() {
       <section className="min-h-screen flex flex-col justify-center items-center p-4">
         <div className="max-w-3xl text-center space-y-8">
           <Avatar className="w-32 h-32 mx-auto border-4 border-primary/10">
-            <AvatarImage src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1920&auto=format&fit=crop" alt="Mehdi Alloui" />
+            <Image src={avatar} alt="Mehdi Alloui" />
             <AvatarFallback>JD</AvatarFallback>
           </Avatar>
           <div>
@@ -103,12 +105,12 @@ export default function Home() {
           </div>
           <div className="flex gap-4 justify-center">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://github.com/rainyzdev">
+              <Link href="https://github.com/rainyzdev" target="_blank">
                 <Github className="h-5 w-5" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://linkedin.com">
+              <Link href="https://www.linkedin.com/in/mehdi-alloui-a79702299/" target="_blank">
                 <Linkedin className="h-5 w-5" />
               </Link>
             </Button>
@@ -197,17 +199,17 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://github.com">
+              <Link href="https://github.com/rainyzdev" target="_blank">
                 <Github className="h-5 w-5" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://linkedin.com">
+              <Link href="https://www.linkedin.com/in/mehdi-alloui-a79702299/" target="_blank">
                 <Linkedin className="h-5 w-5" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="mailto:contact@example.com">
+              <Link href="mailto:mehdi@buzfind.com">
                 <Mail className="h-5 w-5" />
               </Link>
             </Button>
