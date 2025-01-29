@@ -103,7 +103,7 @@ export default function Home() {
           </div>
           <div className="flex gap-4 justify-center">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://github.com">
+              <Link href="https://github.com/rainyzdev">
                 <Github className="h-5 w-5" />
               </Link>
             </Button>
