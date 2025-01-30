@@ -195,7 +195,7 @@ export default function Home() {
       <footer className="py-8 px-4 border-t">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground">
-            © 2024 Mehdi Alloui | Creating Beautiful Digital Experiences
+            © 2025 Mehdi Alloui | Creating Beautiful Digital Experiences
           </p>
           <div className="flex gap-4">
             <Button variant="ghost" size="icon" asChild>
