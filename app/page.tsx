@@ -3,7 +3,7 @@
 import avatar from "@/assets/MehdiAlloui.jpg"
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Linkedin, Mail, Palette, Layout, FileCode } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
