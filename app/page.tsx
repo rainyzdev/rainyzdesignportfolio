@@ -1,6 +1,6 @@
 "use client";
 
-import avatar from "@/assets/MehdiAlloui.png"
+import avatar from "@/assets/MehdiAlloui.jpg"
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -71,15 +71,15 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center p-4">
+      <section className="min-h-screen flex flex-col justify-center items-center p-4 border-b border-gray-200">
         <div className="max-w-3xl text-center space-y-8">
           <Avatar className="w-32 h-32 mx-auto border-4 border-primary/10">
             <Image src={avatar} alt="Mehdi Alloui" />
-            <AvatarFallback>JD</AvatarFallback>
+            <AvatarFallback>MA</AvatarFallback>
           </Avatar>
           <div>
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-              Hey, I'm Mehdi! 👋
+              Hey, I&apos;m Mehdi! 👋
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground mt-4">
               Your Friendly Web Designer
@@ -88,17 +88,17 @@ export default function Home() {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             I love crafting websites that not only look amazing but also tell your story perfectly. 
             Whether you need a stunning portfolio, a sharp business site, or a creative platform, 
-            I'm here to bring your vision to life with style and personality.
+            I&apos;m here to bring your vision to life with style and personality.
           </p>
           <div className="flex gap-4 justify-center">
             <Button variant="default" asChild>
               <Link href="mailto:mehdi@buzfind.com">
                 <Mail className="mr-2 h-4 w-4" />
-                Let's Chat!
+                Let&apos;s Chat!
               </Link>
             </Button>
-            <Button variant="outline" asChild>
-              <Link href="/resume.pdf">
+            <Button className="hover:line-through" variant="outline" asChild>
+              <Link href="">
                 See My Work
               </Link>
             </Button>
@@ -149,7 +149,7 @@ export default function Home() {
       {/* GitHub Activity Section */}
       <section className="py-20 px-4 bg-muted">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Latest Projects</h2>
+          <h2 className="text-3xl font-bold text-center mb-12" >Latest Projects</h2>
           <div className="space-y-4">
             {activities.length > 0 ? (
               activities.map((activity, index) => (
@@ -179,7 +179,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Ready to Make Something Cool?</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Got an exciting project in mind? I'd love to help bring it to life! Let's work together 
+            Got an exciting project in mind? I&apos;d love to help bring it to life! Let&apos;s work together
             to create a website that perfectly captures your style and connects with your audience.
           </p>
           <Button size="lg" asChild>
