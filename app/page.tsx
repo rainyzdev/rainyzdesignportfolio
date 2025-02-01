@@ -183,7 +183,7 @@ export default function Home() {
             to create a website that perfectly captures your style and connects with your audience.
           </p>
 
-          <form name="Contact Form" className="mt-4 max-w-md mx-auto space-y-3" method="post" data-netlify="true">
+          <form name="Contact Form" className="mt-4 max-w-md mx-auto space-y-3" method="POST" data-netlify="true">
             <input type="text" placeholder="Your Name" className="w-full p-2 border rounded-md" required/>
             <input type="email" placeholder="Your Email" className="w-full p-2 border rounded-md" required/>
             <textarea placeholder="Your Message" className="w-full p-2 border rounded-md" required></textarea>
