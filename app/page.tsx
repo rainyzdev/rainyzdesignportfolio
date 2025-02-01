@@ -183,13 +183,39 @@ export default function Home() {
             to create a website that perfectly captures your style and connects with your audience.
           </p>
 
-          <form name="Contact Form" className="mt-4 max-w-md mx-auto space-y-3" method="POST" data-netlify="true">
-            <input type="text" placeholder="Your Name" className="w-full p-2 border rounded-md" required/>
-            <input type="email" placeholder="Your Email" className="w-full p-2 border rounded-md" required/>
-            <textarea placeholder="Your Message" className="w-full p-2 border rounded-md" required></textarea>
-            <Button type="submit" className="mr-2 h-12 w-48">
+          <form
+              name="Contact Form"
+              className="mt-4 max-w-md mx-auto space-y-3"
+              method="POST"
+              data-netlify="true"
+          >
+            {/* Hidden input for Netlify to process the form */}
+            <input type="hidden" name="form-name" value="Contact Form"/>
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                className="w-full p-2 border rounded-md"
+                required
+            />
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                className="w-full p-2 border rounded-md"
+                required
+            />
+            <textarea
+                name="message"
+                placeholder="Your Message"
+                className="w-full p-2 border rounded-md"
+                required
+            ></textarea>
+
+            <button type="submit" className="mr-2 h-12 w-48 bg-blue-500 text-white rounded-md hover:bg-blue-600">
               Send Message
-            </Button>
+            </button>
           </form>
 
           <Button size="lg" asChild>
@@ -210,12 +236,12 @@ export default function Home() {
           <div className="flex gap-4">
             <Button variant="ghost" size="icon" asChild>
               <Link href="https://github.com/rainyzdev" target="_blank">
-                <Github className="h-5 w-5" />
+                <Github className="h-5 w-5"/>
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
               <Link href="https://www.linkedin.com/in/mehdi-alloui-a79702299/" target="_blank">
-                <Linkedin className="h-5 w-5" />
+                <Linkedin className="h-5 w-5"/>
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
