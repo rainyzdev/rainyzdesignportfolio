@@ -182,9 +182,19 @@ export default function Home() {
             Got an exciting project in mind? I&apos;d love to help bring it to life! Let&apos;s work together
             to create a website that perfectly captures your style and connects with your audience.
           </p>
+
+          <form className="mt-4 max-w-md mx-auto space-y-3" data-netlify="true">
+            <input type="text" placeholder="Your Name" className="w-full p-2 border rounded-md" required/>
+            <input type="email" placeholder="Your Email" className="w-full p-2 border rounded-md" required/>
+            <textarea placeholder="Your Message" className="w-full p-2 border rounded-md" required></textarea>
+            <button type="submit" className="mr-2 h-5 w-5">
+              Send Message
+            </button>
+          </form>
+
           <Button size="lg" asChild>
             <Link href="mailto:mehdi@buzfind.com">
-              <Mail className="mr-2 h-5 w-5" />
+              <Mail className="mr-2 h-5 w-5"/>
               Start a Conversation
             </Link>
           </Button>
