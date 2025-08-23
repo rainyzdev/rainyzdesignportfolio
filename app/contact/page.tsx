@@ -120,38 +120,13 @@ export default function Contact() {
             </div>
 
             <div className="space-y-8">
-              {/* Business Hours */}
-              <div className="bg-white rounded-2xl shadow-lg p-6">
-                <h3 className="text-xl font-bold text-black mb-4 flex items-center">
-                  <Clock size={24} className="text-magenta-600 mr-3" />
-                  Business Hours
-                </h3>
-                <div className="space-y-2 text-gray-700">
-                  <div className="flex justify-between">
-                    <span>Monday - Friday:</span>
-                    <span className="font-medium">9:00 AM - 6:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday:</span>
-                    <span className="font-medium">10:00 AM - 4:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Sunday:</span>
-                    <span className="font-medium">By Appointment</span>
-                  </div>
-                  <div className="text-sm text-gray-500 mt-3 pt-3 border-t border-gray-200">
-                    <p>Emergency support available 24/7 for existing clients</p>
-                  </div>
-                </div>
-              </div>
-
               {/* Response Time */}
               <div className="bg-magenta-50 rounded-2xl p-6 border border-magenta-100">
                 <h3 className="text-xl font-bold text-black mb-4">Response Time</h3>
                 <div className="space-y-3">
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                    <span className="text-gray-700"><strong>Email:</strong> Within 4 hours</span>
+                    <span className="text-gray-700"><strong>Email:</strong> Within 24 hours</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
@@ -159,7 +134,7 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                    <span className="text-gray-700"><strong>Consultation:</strong> Within 24 hours</span>
+                    <span className="text-gray-700"><strong>Consultation:</strong> Within 24-48 hours</span>
                   </div>
                 </div>
               </div>

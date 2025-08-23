@@ -11,71 +11,16 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    title: 'Indianapolis Restaurant Group',
-    category: 'Restaurant & Hospitality',
-    image: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Modern restaurant website with online ordering system and local SEO optimization.',
-    problem: 'Low online visibility and no online ordering system during COVID-19.',
-    solution: 'Built responsive website with integrated ordering system and local SEO strategy.',
-    results: ['200% increase in online orders', '150% boost in website traffic', '#1 ranking for "Indianapolis Italian restaurant"'],
-    technologies: ['Next.js', 'React', 'Local SEO', 'Online Ordering Integration'],
-    url: '#'
+    title: 'Sparkle Detailing',
+    category: 'Live',
+    image: '/assets/sparkledetailingscreenshot.png',
+    description: 'Modern detailing website with online booking system, local SEO optimization, and promotion notification.',
+    problem: 'Low online visibility and low bookings during peak season.',
+    solution: 'Built responsive website with integrated booking system and local SEO strategy.',
+    results: ['200% increase in online bookings', '9x boost in organic leads', '#1 Google My Business ranking for "Mobile Detailer in Muncie"'],
+    technologies: ['Next.js', 'Tailwind', 'Local SEO', 'Square Integration'],
+    url: 'https://sparklecardetailing.com'
   },
-  {
-    title: 'Central Indiana Auto Dealership',
-    category: 'Automotive',
-    image: 'https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Complete website redesign with inventory management and lead generation optimization.',
-    problem: 'Outdated website with poor mobile experience and low conversion rates.',
-    solution: 'Redesigned with mobile-first approach, optimized for local car buyers, and integrated CRM.',
-    results: ['300% increase in online leads', '85% improvement in mobile experience', 'Top 3 Google ranking for target keywords'],
-    technologies: ['WordPress', 'Custom CRM Integration', 'Local SEO', 'Lead Generation'],
-    url: '#'
-  },
-  {
-    title: 'Smith & Associates Law Firm',
-    category: 'Legal Services',
-    image: 'https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Professional law firm website with case study showcases and client portal.',
-    problem: 'Generic template website with no clear value proposition or client testimonials.',
-    solution: 'Custom design emphasizing expertise, client success stories, and easy contact methods.',
-    results: ['400% increase in consultation requests', 'Improved professional credibility', 'Higher quality client inquiries'],
-    technologies: ['React', 'SEO Optimization', 'Content Strategy', 'Professional Design'],
-    url: '#'
-  },
-  {
-    title: 'Indiana Home Services',
-    category: 'Home Improvement',
-    image: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Service-based website with booking system and customer review integration.',
-    problem: 'Difficulty scheduling appointments and showcasing completed projects.',
-    solution: 'Built booking system with photo galleries and integrated customer review system.',
-    results: ['250% increase in online bookings', 'Streamlined customer acquisition', 'Improved customer satisfaction'],
-    technologies: ['Next.js', 'Booking System', 'Review Integration', 'Photo Galleries'],
-    url: '#'
-  },
-  {
-    title: 'Indianapolis Fitness Center',
-    category: 'Health & Wellness',
-    image: 'https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Fitness center website with membership management and class scheduling.',
-    problem: 'Manual membership management and poor online class visibility.',
-    solution: 'Integrated membership portal with class schedules and online registration.',
-    results: ['180% increase in membership sign-ups', 'Reduced administrative workload', 'Improved member engagement'],
-    technologies: ['React', 'Membership Portal', 'Class Scheduling', 'Payment Integration'],
-    url: '#'
-  },
-  {
-    title: 'Indianapolis Tech Startup',
-    category: 'Technology',
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Modern SaaS landing page with conversion optimization and investor presentation.',
-    problem: 'Low conversion rates and unclear value proposition for potential customers.',
-    solution: 'Redesigned with clear messaging, social proof, and conversion-optimized landing pages.',
-    results: ['350% improvement in conversion rate', 'Successful Series A funding', 'Clear brand positioning'],
-    technologies: ['Next.js', 'A/B Testing', 'Conversion Optimization', 'Modern Design'],
-    url: '#'
-  }
 ];
 
 export default function Portfolio() {
@@ -89,9 +34,7 @@ export default function Portfolio() {
               My Indianapolis <span className="text-magenta-400">Portfolio</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Discover how I've helped Indianapolis businesses transform their online presence 
-              with custom web design, SEO optimization, and digital marketing strategies that deliver measurable results.
-            </p>
+See live & demo websites I’ve created for Indianapolis businesses, showcasing custom web design, SEO optimization, and digital marketing strategies that demonstrate results and design potential.            </p>
           </div>
         </div>
       </section>

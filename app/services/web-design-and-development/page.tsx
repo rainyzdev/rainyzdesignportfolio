@@ -38,7 +38,7 @@ const features = [
   {
     icon: Palette,
     title: 'Custom Design',
-    description: 'Unique designs tailored to your brand, not cookie-cutter templates.'
+    description: 'Unique designs tailored to your brand.'
   }
 ];
 

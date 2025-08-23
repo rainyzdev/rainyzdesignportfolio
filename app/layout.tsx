@@ -46,7 +46,6 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "title": "Mehdi Alloui's Web Design & SEO Portfolio",
               "name": "Mehdi Alloui Web Design & SEO",
               "description": "Professional web design, SEO, and digital marketing services for Indianapolis businesses",
               "url": "https://mehdi-alloui-portfolio.com",

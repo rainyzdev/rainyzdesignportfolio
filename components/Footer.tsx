@@ -55,13 +55,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/services" className="text-gray-300 hover:text-magenta-400 transition-colors">
+                  Services
+                </Link>
+              </li>
+              <li>
                 <Link href="/portfolio" className="text-gray-300 hover:text-magenta-400 transition-colors">
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-300 hover:text-magenta-400 transition-colors">
-                  Services
+                <Link href="/blog" className="text-gray-300 hover:text-magenta-400 transition-colors">
+                  Blog
                 </Link>
               </li>
               <li>
@@ -76,7 +81,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-3">
-              <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3">
                 <MapPin size={18} className="text-magenta-400 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
                   Indianapolis, Indiana<br />

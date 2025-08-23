@@ -19,9 +19,8 @@ export default function Navigation() {
 
   const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/portfolio', label: 'Portfolio' },
-    { 
-      href: '/services', 
+    {
+      href: '/services',
       label: 'Services',
       submenu: [
         { href: '/services/web-design-and-development', label: 'Web Design & Development' },
@@ -29,6 +28,9 @@ export default function Navigation() {
         { href: '/services/marketing-and-branding', label: 'Marketing & Branding' }
       ]
     },
+    { href: '/portfolio', label: 'Portfolio' },
+    { href: '/blog', label: 'Blog' },
+
     { href: '/contact', label: 'Contact' },
   ];
 

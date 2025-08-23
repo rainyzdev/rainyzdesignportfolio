@@ -10,7 +10,6 @@ export default function ContactForm() {
     company: '',
     phone: '',
     service: '',
-    budget: '',
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -37,7 +36,6 @@ export default function ContactForm() {
         company: '',
         phone: '',
         service: '',
-        budget: '',
         message: ''
       });
     }, 1000);
@@ -137,25 +135,6 @@ export default function ContactForm() {
               <option value="branding">Branding & Logo Design</option>
               <option value="maintenance">Website Maintenance</option>
               <option value="consultation">Free Consultation</option>
-            </select>
-          </div>
-          <div>
-            <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
-              Project Budget
-            </label>
-            <select
-              id="budget"
-              name="budget"
-              value={formData.budget}
-              onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-magenta-500 focus:border-magenta-500 transition-colors"
-            >
-              <option value="">Select budget range</option>
-              <option value="under-5k">Under $5,000</option>
-              <option value="5k-10k">$5,000 - $10,000</option>
-              <option value="10k-20k">$10,000 - $20,000</option>
-              <option value="20k-plus">$20,000+</option>
-              <option value="discuss">Let's discuss</option>
             </select>
           </div>
         </div>
