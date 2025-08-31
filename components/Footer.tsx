@@ -11,7 +11,7 @@ export default function Footer() {
             <h3 className="text-2xl font-bold mb-4">Mehdi Alloui</h3>
             <p className="text-gray-300 mb-6 max-w-md">
               Professional web design, SEO optimization, and digital marketing services 
-              for Indianapolis businesses. Helping local companies grow their online presence 
+              in Indianapolis. Helping small businesses grow their online presence
               with modern, fast-loading websites.
             </p>
             <div className="flex space-x-4">
@@ -91,19 +91,19 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-magenta-400 flex-shrink-0" />
                 <a 
-                  href="mailto:mehdi@example.com"
+                  href="mailto:contact@mehdialloui.com"
                   className="text-gray-300 hover:text-magenta-400 transition-colors text-sm"
                 >
-                  mehdi@example.com
+                  contact@mehdialloui.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={18} className="text-magenta-400 flex-shrink-0" />
                 <a 
-                  href="tel:+13175550123"
+                  href="tel:+16108169276"
                   className="text-gray-300 hover:text-magenta-400 transition-colors text-sm"
                 >
-                  (317) 555-0123
+                  (610) 816-9276
                 </a>
               </div>
             </div>

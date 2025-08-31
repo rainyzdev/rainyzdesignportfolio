@@ -68,35 +68,34 @@ const process = [
 const pricing = [
   {
     name: 'Starter Website',
-    price: '$2,500',
+    price: '$699',
     description: 'Perfect for small businesses and startups',
     features: [
-      '5-page responsive website',
+      'Multi-page responsive website',
       'Mobile-optimized design',
       'Basic SEO setup',
       'Contact form integration',
-      'Google Analytics setup',
-      '30 days of support'
-    ]
+      'Google Analytics setup'
+    ],
+    popular: true
   },
   {
     name: 'Professional Website',
-    price: '$4,500',
+    price: '$1,399',
     description: 'Ideal for established businesses',
     features: [
-      '10-page responsive website',
+      'Multi-page responsive website',
       'Custom design & branding',
       'Advanced SEO optimization',
       'Content management system',
       'E-commerce ready',
       'Social media integration',
       '60 days of support'
-    ],
-    popular: true
+    ]
   },
   {
     name: 'Enterprise Website',
-    price: '$8,500',
+    price: 'Contact for Pricing',
     description: 'For large businesses with complex needs',
     features: [
       'Unlimited pages',

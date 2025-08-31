@@ -2,28 +2,28 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Sarah Johnson',
-    company: 'Indianapolis Restaurant Group',
-    role: 'Marketing Director',
-    content: 'Mehdi transformed our online presence completely. Our website traffic increased by 200% and we\'re getting more local customers than ever before.',
+    name: 'Ahmad N.',
+    company: 'Safar Kitchen',
+    role: 'Partner',
+    content: 'Mehdi completely transformed our website! He was incredibly communicative, knowledgeable, and transparent, and everyone on our team has been impressed with the results.',
     rating: 5,
-    location: 'Indianapolis, IN',
+    location: 'Muncie, IN',
   },
   {
-    name: 'Mike Rodriguez',
-    company: 'Central Indiana Auto',
+    name: 'Abdelrahman E.',
+    company: 'Outdoor Oasis',
     role: 'Business Owner',
-    content: 'The SEO work Mehdi did for our auto dealership brought us to the top of Google searches. We\'re now the #1 result for "auto dealer Indianapolis".',
+    content: 'Working with Mehdi was a great experience! He built us a clean, modern website that makes our business look professional and gives us a solid presence online. It’s exactly what we needed to put our company on the map.',
     rating: 5,
-    location: 'Indianapolis, IN',
+    location: 'Pottstown, PA',
   },
   {
-    name: 'Jennifer Smith',
-    company: 'Smith & Associates Law',
+    name: 'Kaiden M.',
+    company: 'KB Detailing',
     role: 'Managing Partner',
-    content: 'Professional, responsive, and results-driven. Our new website looks amazing and generates quality leads for our law practice.',
+    content: 'Mehdi was great to work with. He built a clean, modern website that really feels like us, and he even integrated a booking system that makes managing leads so much easier. It’s simple, professional, and finally gives our business a proper presence online',
     rating: 5,
-    location: 'Carmel, IN',
+    location: 'Muncie, IN',
   },
 ];
 
@@ -36,7 +36,7 @@ export default function TestimonialsSection() {
             Client Results
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Real results from Indianapolis businesses.
+            Real results from real businesses.
           </p>
         </div>
 
@@ -71,8 +71,6 @@ export default function TestimonialsSection() {
           <div className="inline-flex items-center text-magenta-300 px-6 py-3 rounded-full border border-magenta-600/30">
             <Star size={20} className="text-yellow-400 fill-current mr-2" />
             <span className="font-semibold">5.0/5.0 Average Rating</span>
-            <span className="mx-2">•</span>
-            <span>50+ Happy Clients</span>
           </div>
         </div>
       </div>

@@ -12,22 +12,22 @@ const contactMethods = [
   {
     icon: Mail,
     title: 'Email',
-    description: 'mehdi@example.com',
-    action: 'mailto:mehdi@example.com',
+    description: 'contact@mehdialloui.com',
+    action: 'mailto:contact@mehdialloui.com',
     note: 'Best for detailed project inquiries'
   },
   {
     icon: Phone,
     title: 'Phone',
-    description: '(317) 555-0123',
-    action: 'tel:+13175550123',
-    note: 'Available Mon-Fri, 9AM-6PM EST'
+    description: '(610) 816-9276',
+    action: 'tel:+16108169276',
+    note: 'If I am unable to take your call, please feel free to leave a detailed voicemail and I will return your call as soon as possible'
   },
   {
     icon: MessageCircle,
     title: 'Text Message',
-    description: '(317) 555-0123',
-    action: 'sms:+13175550123',
+    description: '(610) 816-9276',
+    action: 'sms:+16108169276',
     note: 'For quick questions and updates'
   },
   {
@@ -42,7 +42,7 @@ const contactMethods = [
 const faqs = [
   {
     question: 'How long does it take to build a website?',
-    answer: 'Most websites are completed within 2-4 weeks, depending on complexity and content readiness. Simple brochure sites can be done in 1-2 weeks, while e-commerce or custom applications may take 4-8 weeks.'
+    answer: 'Most websites are completed within 2-3 weeks, depending on complexity and content readiness. Simple brochure sites can be done in 1-2 weeks, while e-commerce or custom applications may take 4-8 weeks.'
   },
   {
     question: 'Do you offer SEO services for existing websites?',
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     question: 'What is your pricing for web design projects?',
-    answer: 'Pricing varies based on project scope and requirements. Basic websites start at $2,500, while more complex sites with custom functionality can range from $5,000-$15,000. I provide detailed quotes after our initial consultation.'
+    answer: 'Pricing varies based on project scope and requirements. Basic websites start at $799, while more complex sites with custom functionality can range from $1,199-$7,999. I provide detailed quotes after our initial consultation.'
   },
   {
     question: 'Do you provide ongoing website maintenance?',
@@ -144,7 +144,7 @@ export default function Contact() {
                 <h3 className="text-xl font-bold text-black mb-4">Service Areas</h3>
                 <div className="text-gray-700">
                   <p className="font-medium text-black mb-2">Primary Service Area:</p>
-                  <p className="mb-4">Indianapolis Metropolitan Area</p>
+                  <p className="mb-4">Indianapolis Metro Area</p>
                   
                   <p className="font-medium text-black mb-2">Also Serving:</p>
                   <ul className="text-sm space-y-1">
@@ -186,7 +186,7 @@ export default function Contact() {
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-4">Don't see your question answered?</p>
             <a
-              href="mailto:mehdi@example.com"
+              href="mailto:contact@mehdialloui.com"
               className="inline-flex items-center text-magenta-600 font-semibold hover:text-magenta-700 transition-colors"
             >
               Ask me directly via email

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-black to-gray-900 text-white min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative bg-gradient-to-br from-black to-gray-900 text-white min-h-[80vh] flex items-center overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10 animate-pulse">
         <div className="absolute inset-0 bg-gradient-to-r from-magenta-600/20 to-transparent"></div>
@@ -55,7 +55,7 @@ export default function Hero() {
           <div className="flex justify-center lg:justify-end animate-fade-in-left animation-delay-600">
             <div className="relative">
               <div className="absolute inset-0 bg-magenta-600/20 rounded-full blur-2xl animate-pulse"></div>
-              {/*<div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-magenta-600/30 shadow-2xl hover:scale-105 transition-transform duration-500">
+              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-magenta-600/30 shadow-2xl hover:scale-105 transition-transform duration-500">
                 <Image
                   src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Mehdi Alloui - Indianapolis Web Designer and SEO Specialist"
@@ -63,8 +63,8 @@ export default function Hero() {
                   className="object-cover"
                   priority
                 />
-              </div>*/}
-
+              </div>
+              {/* Floating elements around photo */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-magenta-600 rounded-full animate-bounce animation-delay-1000"></div>
               <div className="absolute -bottom-6 -left-6 w-6 h-6 bg-white rounded-full animate-bounce animation-delay-1500"></div>
               <div className="absolute top-1/2 -left-8 w-4 h-4 bg-magenta-400 rounded-full animate-pulse animation-delay-2000"></div>

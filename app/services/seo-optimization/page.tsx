@@ -81,11 +81,11 @@ const process = [
 const packages = [
   {
     name: 'Local SEO Starter',
-    price: '$800/month',
+    price: '$249/month',
     description: 'Perfect for small Indianapolis businesses',
     features: [
       'Google My Business optimization',
-      'Local keyword research (20 keywords)',
+      'Local keyword research',
       'On-page SEO optimization',
       'Local directory submissions',
       'Monthly progress reports',
@@ -94,7 +94,7 @@ const packages = [
   },
   {
     name: 'Professional SEO',
-    price: '$1,500/month',
+    price: '$1,249/month',
     description: 'Ideal for growing Indianapolis businesses',
     features: [
       'Everything in Starter package',
@@ -109,7 +109,7 @@ const packages = [
   },
   {
     name: 'Enterprise SEO',
-    price: '$2,500/month',
+    price: 'Contact for Pricing',
     description: 'For large businesses dominating their market',
     features: [
       'Everything in Professional package',

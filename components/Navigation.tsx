@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
 export default function Navigation() {
@@ -30,7 +31,6 @@ export default function Navigation() {
     },
     { href: '/portfolio', label: 'Portfolio' },
     { href: '/blog', label: 'Blog' },
-
     { href: '/contact', label: 'Contact' },
   ];
 
@@ -43,8 +43,15 @@ export default function Navigation() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="font-bold text-xl text-black hover:text-magenta-600 transition-colors">
-            Mehdi Alloui
+          <Link href="/">
+            <Image
+                  src="/assets/mehdiallouilogo.svg"
+                  alt="Mehdi Alloui's Logo"
+                  width={64}
+                  height={64}
+                  className="object-contain"
+                  priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

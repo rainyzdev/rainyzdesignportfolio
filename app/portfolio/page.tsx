@@ -5,7 +5,7 @@ import { ExternalLink, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Portfolio - Indianapolis Web Design Projects | Mehdi Alloui',
-  description: 'View my portfolio of successful web design and SEO projects for Indianapolis businesses. See real results from restaurants, law firms, auto dealers, and more.',
+  description: 'View my portfolio and demos of successful web design and SEO projects for Indianapolis businesses.',
   keywords: 'Indianapolis web design portfolio, web design examples Indianapolis, SEO case studies Indianapolis, website development portfolio Indiana',
 };
 
@@ -14,13 +14,24 @@ const projects = [
     title: 'Sparkle Detailing',
     category: 'Live',
     image: '/assets/sparkledetailingscreenshot.png',
-    description: 'Modern detailing website with online booking system, local SEO optimization, and promotion notification.',
-    problem: 'Low online visibility and low bookings during peak season.',
+    description: 'Modern detailing website an integrated online booking system and local SEO optimization.',
+    problem: 'Not ranking front page on google. 0 Organic traffic',
     solution: 'Built responsive website with integrated booking system and local SEO strategy.',
-    results: ['200% increase in online bookings', '9x boost in organic leads', '#1 Google My Business ranking for "Mobile Detailer in Muncie"'],
-    technologies: ['Next.js', 'Tailwind', 'Local SEO', 'Square Integration'],
+    results: ['200% increase in online orders', '250% boost in bookings', 'Front page for "Detailers in Muncie"'],
+    technologies: ['Next.js', 'TailwindCSS', 'Local SEO', 'Square Integration'],
     url: 'https://sparklecardetailing.com'
   },
+  {
+    title: 'Outdoor Oasis',
+    category: 'Live',
+    image: '/assets/outdooroasisscreenshot.png',
+    description: 'Modern landscaping landing page with intake form and local SEO optimization.',
+    problem: 'Nowhere to represent us online',
+    solution: 'Built responsive website with an integrated form system and local SEO strategy.',
+    results: ['Professionalism', 'Credibility', 'Reached maximum client capacity'],
+    technologies: ['Next.js', 'TailwindCSS', 'Local SEO', 'Form Integration'],
+    url: 'https://outdooroasispa.com'
+  }
 ];
 
 export default function Portfolio() {
@@ -34,7 +45,7 @@ export default function Portfolio() {
               My Indianapolis <span className="text-magenta-400">Portfolio</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-See live & demo websites I’ve created for Indianapolis businesses, showcasing custom web design, SEO optimization, and digital marketing strategies that demonstrate results and design potential.            </p>
+See demo websites I’ve created for Indianapolis businesses, showcasing custom web design, SEO optimization, and digital marketing strategies that demonstrate results and design potential.            </p>
           </div>
         </div>
       </section>

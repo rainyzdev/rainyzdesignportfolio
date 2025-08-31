@@ -228,11 +228,7 @@ export default function Services() {
                 As a local Indianapolis web designer, I understand the unique needs of businesses in our community. 
                 I provide personalized service and local support that you won't get from large agencies or overseas developers.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
-                <div className="bg-white rounded-lg p-4">
-                  <div className="text-2xl font-bold text-magenta-600 mb-1">50+</div>
-                  <div className="text-gray-600 text-sm">Local Clients Served</div>
-                </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
                 <div className="bg-white rounded-lg p-4">
                   <div className="text-2xl font-bold text-magenta-600 mb-1">100%</div>
                   <div className="text-gray-600 text-sm">Client Satisfaction</div>
@@ -262,7 +258,7 @@ export default function Services() {
               href="/contact"
               className="inline-flex items-center bg-black text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-800 transition-colors"
             >
-              Book Free Consultation
+              Book Your Free Consultation
             </Link>
             <Link
               href="/portfolio"
